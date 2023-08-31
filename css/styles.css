@@ -331,7 +331,7 @@ body {
 }
 
 #headerWrapper {
-  background-color: #abc;
+  background-color: rgb(0, 0, 0);
   color: #d92828;
 }
 
@@ -349,7 +349,7 @@ header h1 {
 }
 
 #navWrapper {
-  background-color: aliceblue;
+  background-color: rgb(0, 0, 0);
 }
 
 nav ul {
