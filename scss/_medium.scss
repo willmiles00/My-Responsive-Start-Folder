@@ -13,6 +13,7 @@ nav{
     ul{
         display: flex;
         li a{
+
             color: white;
             border-top: none;
         }
@@ -20,4 +21,9 @@ nav{
             color: black;
         }
     }
+}
+
+section{
+
+    grid-template-columns: 1fr 1fr;
 }
