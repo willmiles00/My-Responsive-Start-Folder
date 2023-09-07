@@ -3,3 +3,21 @@ header{
     h1{
         font-size: 2rem;}
 }
+
+#navWrapper{
+    background-color: black;
+  
+}
+
+nav{
+    ul{
+        display: flex;
+        li a{
+            color: white;
+            border-top: none;
+        }
+        li.active a{
+            color: black;
+        }
+    }
+}
