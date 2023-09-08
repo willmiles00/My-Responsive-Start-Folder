@@ -97,6 +97,7 @@ section div{
   width: 100%;
   padding: 1rem $gutter;
   h2{
+    margin-bottom: 0;
     padding: .5rem 0;
     text-align: center;
     background-color: lighten($primaryColor, 30%);
@@ -104,6 +105,10 @@ section div{
   img{
     width: 100%;
     height: auto;
+  }
+  p{
+    text-align: center;
+    margin-top: 5px;
   }
 }
 

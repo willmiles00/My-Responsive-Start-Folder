@@ -379,6 +379,7 @@ section div {
   padding: 1rem 16px;
 }
 section div h2 {
+  margin-bottom: 0;
   padding: 0.5rem 0;
   text-align: center;
   background-color: #f0aaaa;
@@ -386,6 +387,10 @@ section div h2 {
 section div img {
   width: 100%;
   height: auto;
+}
+section div p {
+  text-align: center;
+  margin-top: 5px;
 }
 
 #footerWrapper {
