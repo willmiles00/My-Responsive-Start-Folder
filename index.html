@@ -1,134 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Performing Arts Center | Blackhorn Performing Arts Center</title>
-    <meta name="description" content="Will's Sample Start File" >
-    <meta name="author" content="William Miles" >
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="https://use.typekit.net/kto8rkn.css" >
-    <link rel="stylesheet" href="css/styles.min.css" >
+    <title>Whitecap Architecture</title>
+    <meta name="description" content="Will's Sample Start File" />
+    <meta name="author" content="William Miles" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/kto8rkn.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
 
     <!-- Favicon stuff -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="images/apple-touch-icon.png"
-    >
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="images/favicon-32x32.png"
-    >
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="images/favicon-16x16.png"
-    >
-    <link rel="manifest" href="images/site.webmanifest">
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
   </head>
   <body>
     <div id="headerWrapper">
       <header>
         <a href="index.html">
-            <img src="images/logo1x.png" alt="logo" width="50" height="50"
-          srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x"></a
-        >
-        <h1>Blackhorn Performing Arts Center</h1>
+          <img
+            src="images/logo1x.png"
+            alt="logo"
+            width="50"
+            height="50"
+            srcset="
+              images/logo1x.png 1x,
+              images/logo2x.png 2x,
+              images/logo3x.png 3x
+            "
+        /></a>
+        <h1>Whitecap Architecture</h1>
       </header>
     </div>
 
     <div id="navWrapper">
       <nav>
         <ul>
-          <li class="active"><a href="#">Upcoming Shows</a></li>
+          <li class="active"><a href="#">Be an Architect</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Our Team</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a href="#">Donate</a></li>
+          <li><a href="#">FAQ</a></li>
         </ul>
       </nav>
     </div>
 
     <div id="mainWrapper">
       <main>
-        <h1>Upcoming Shows</h1>
-        <section>
+        <h1>Be an Architect</h1>
 
-            <div>
-                <h2>Surviving August</h2>
-                <img src="images/play01.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 3 2023</p>
-            </div>
+        <picture class="hero">
+          <source
+            media="(min-width: 300px) and (max-width: 699px)"
+            srcset="images/arcSmall.jpg"
+          />
+          <source
+            media="(min-width: 700px) and (max-width: 1099px)"
+            srcset="images/arcMedium.jpg"
+          />
+          <source
+            media="(min-width: 1100px) and (max-width: 1500px)"
+            srcset="images/arcLarge.jpg"
+          />
+          <img src="images/arcReg.jpg" alt="buildings" width="16" height="9" />
+        </picture>
 
-            <div>
-                <h2>Backstage Biker</h2>
-                <img src="images/play02.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 4 2023</p>
-            </div>
+        <video controls>
+          <source src="media/trimmed_hb.mp4" type="video/mp4" />
+          <source src="media/trimmed_hb.webm" type="video/webm" />
+          <track
+            label="English"
+            kind="subtitles"
+            srclang="en"
+            src="media/will-en.vtt"
+          />
+          <track
+            label="Japanese"
+            kind="subtitles"
+            srclang="jp"
+            src="media/will-jp.vtt"
+            default
+          />
+        </video>
 
-            <div>
-                <h2>Peaky Blinders Musical</h2>
-                <img src="images/play03.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 5 2023</p>
-            </div>
-
-            <div>
-                <h2>Starstruck</h2>
-                <img src="images/play04.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 6 2023</p>
-            </div>
-
-            <div>
-                <h2>A Working Man</h2>
-                <img src="images/play05.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 7 2023</p>
-            </div>
-
-            <div>
-                <h2>Justified</h2>
-                <img src="images/play06.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 8 2023</p>
-            </div>
-
-            <div>
-                <h2>Jazz Forever</h2>
-                <img src="images/play07.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 9 2023</p>
-            </div>
-
-            <div>
-                <h2>Pirate Family</h2>
-                <img src="images/play08.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 10 2023</p>
-            </div>
-
-            <div>
-                <h2>Ticket to Ride</h2>
-                <img src="images/play09.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 11 2023</p>
-            </div>
-
-            <div>
-                <h2>Stardew Valley</h2>
-                <img src="images/play10.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 12 2023</p>
-            </div>
-
-            <div>
-                <h2>Oatmeal Grandma</h2>
-                <img src="images/play11.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 13 2023</p>
-            </div>
-
-            <div>
-                <h2>The Last Dance</h2>
-                <img src="images/play12.webp" alt="woman" width="500" height="500" loading="lazy">
-                <p> May 14 2023</p>
-            </div>
-        </section>
+        <details>
+          <summary>Video Transcript</summary>
+            <p>
+              Hey what's up I'm an architect when you're an architect like me
+              you do big architect things I had a filet of fish food lunch today
+              oh my God it was amazing did you know they let you put the mac
+              sauce on the filet of fish only if you're an architect </p>
+              <p>
+              anyway I
+              made this site so you guys can see how good of an architect I am
+              because I went to architecture school in Boston let me tell you
+              something about Boston they don't let you put patches on your
+              sleeves if you're just some regular small only if you're an
+              architect anyway I just wanted to say thank you for watching my
+              video and uh if you support Architects like me donate to Saint
+              Jude's children hospital today would do me and every other
+              architect a great big deal thank you goodbye.
+            </p>
+        </details>
       </main>
     </div>
 

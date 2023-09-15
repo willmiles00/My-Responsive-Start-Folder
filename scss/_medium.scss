@@ -5,20 +5,22 @@ header{
 }
 
 #navWrapper{
-    background-color: black;
-  
+    background-color: rgba(164, 221, 221, 0.606);
 }
+
 
 nav{
     ul{
         display: flex;
+        justify-content: space-between;
         li a{
-
-            color: white;
+            
+            color: rgb(47, 45, 45);
             border-top: none;
         }
         li.active a{
-            color: black;
+            background: none;
+            color: rgb(183, 79, 79);
         }
     }
 }

@@ -3,9 +3,14 @@ header, nav, main, footer{
     margin: auto;
 }
 
+nav ul{
+    justify-content: right;
+}
+
 nav ul li a{
  padding: .6rem 2rem;
  font-size: 1rem;
+ 
 }
 
 section{
