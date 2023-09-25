@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Whitecap Architecture</title>
-    <meta name="description" content="Will's Sample Start File">
-    <meta name="author" content="William Miles" >
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="https://use.typekit.net/kto8rkn.css" >
-    <link rel="stylesheet" href="css/styles.min.css" >
+    <title>Yummy Yum Diner</title>
+    <meta name="description" content="Will's Sample Start File" />
+    <meta name="author" content="William Miles" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/kto8rkn.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
 
     <!-- Favicon stuff -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="images/apple-touch-icon.png"
-    >
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="images/favicon-32x32.png"
-    >
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="images/favicon-16x16.png"
-    >
-    <link rel="manifest" href="images/site.webmanifest" >
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
   </head>
   <body>
     <div id="headerWrapper">
@@ -43,17 +43,18 @@
               images/logo2x.png 2x,
               images/logo3x.png 3x
             "
-        ></a>
-        <h1>Whitecap Architecture</h1>
+        /></a>
+        <h1>Yummy Yum Diner</h1>
       </header>
     </div>
 
     <div id="navWrapper">
       <nav>
-        <ul>
-          <li class="active"><a href="#">Be an Architect</a></li>
+        <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+          <li><a href="#">Be an Architect</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#">Our Team</a></li>
+          <li class="active"><a href="#">Menu</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">FAQ</a></li>
         </ul>
@@ -62,66 +63,76 @@
 
     <div id="mainWrapper">
       <main>
-        <h1>Be an Architect</h1>
+        <h1>Menu</h1>
 
-        <picture class="hero">
-          <source
-            media="(min-width: 300px) and (max-width: 699px)"
-            srcset="images/arcSmall.jpg"
-          >
-          <source
-            media="(min-width: 700px) and (max-width: 1099px)"
-            srcset="images/arcMedium.jpg"
-          >
-          <source
-            media="(min-width: 1100px) and (max-width: 1500px)"
-            srcset="images/arcLarge.jpg"
-          >
-          <img src="images/arcReg.jpg" alt="buildings" width="16" height="9" >
-        </picture>
+        <div class="allcards">
+          <section>
+            <h2>HTML</h2>
+            <img src="images/diner1.webp" alt="html" width="300" height="175" />
+            <p>Here's some diner food. Doesn't it look good?</p>
+            <a href="#">Learn More</a>
+          </section>
 
-        <video controls>
-          <source src="media/trimmed_hb.mp4" type="video/mp4" >
-          <source src="media/trimmed_hb.webm" type="video/webm" >
-          <track
-            label="English"
-            kind="subtitles"
-            srclang="en"
-            src="media/will-en.vtt"
-          >
-          <track
-            label="Japanese"
-            kind="subtitles"
-            srclang="jp"
-            src="media/will-jp.vtt"
-            default
-          >
-        </video>
+          <section>
+            <h2>HTML</h2>
+            <img src="images/diner2.webp" alt="html" width="300" height="175" />
+            <p>Here's some diner food. Doesn't it look good?</p>
+            <a href="#">Learn More</a>
+          </section>
 
-        <details>
-          <summary>Video Transcript</summary>
-            <p>
-              Hey what's up I'm an architect when you're an architect like me
-              you do big architect things I had a filet of fish food lunch today
-              oh my God it was amazing did you know they let you put the mac
-              sauce on the filet of fish only if you're an architect </p>
-              <p>
-              anyway I
-              made this site so you guys can see how good of an architect I am
-              because I went to architecture school in Boston let me tell you
-              something about Boston they don't let you put patches on your
-              sleeves if you're just some regular small only if you're an
-              architect anyway I just wanted to say thank you for watching my
-              video and uh if you support Architects like me donate to Saint
-              Jude's children hospital today would do me and every other
-              architect a great big deal thank you goodbye.
-            </p>
-        </details>
+          <section>
+            <h2>HTML</h2>
+            <img src="images/diner3.webp" alt="html" width="300" height="175" />
+            <p>Here's some diner food. Doesn't it look good?</p>
+            <a href="#">Learn More</a>
+          </section>
+
+          <section>
+            <h2>HTML</h2>
+            <img src="images/diner4.webp" alt="html" width="300" height="175" />
+            <p>Here's some diner food. Doesn't it look good?</p>
+            <a href="#">Learn More</a>
+          </section>
+
+          <section>
+            <h2>HTML</h2>
+            <img src="images/diner5.webp" alt="html" width="300" height="175" />
+            <p>Here's some diner food. Doesn't it look good?</p>
+            <a href="#">Learn More</a>
+          </section>
+        </div>
       </main>
     </div>
 
     <div id="footerWrapper">
       <footer>
+        <div>
+          <section class="contact">
+            <p>Joe Burgerman Smith III</p>
+            <p>Yummy Yum Diner, LLC</p>
+            <p>
+              <a href="mailto:joebs@yummyumdiner.com">joebs@yummyumdiner.com</a>
+            </p>
+            <p><a href="https://yummyyumdiner.com">yummyumdiner.com</a></p>
+            <p><a href="tel:8018638888">801-863-8888</a></p>
+          </section>
+
+          <section class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Threads</a>
+            <a href="#">LinkedIn</a>
+          </section>
+
+          <section class="location">
+            <address>
+              Yummy Yum Diner <br>
+              800 W University Pkwy <br>
+              Orem, UT 84058
+            </address>
+          </section>
+        </div>
+
         <p>&copy; <span id="year">x</span> &bull; William Miles</p>
       </footer>
     </div>

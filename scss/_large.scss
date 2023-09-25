@@ -3,17 +3,24 @@ header, nav, main, footer{
     margin: auto;
 }
 
-nav ul{
-    justify-content: right;
+nav {
+    button{
+        display: none;
+    }
+
+    ul, ul.open{
+        border: none;
+        display: flex;
+    }
+
+    ul li{
+        border: none;
+    }
 }
 
-nav ul li a{
- padding: .6rem 2rem;
- font-size: 1rem;
- 
-}
 
-section{
-
-    grid-template-columns: 1fr 1fr 1fr;
+.allcards{
+    section{
+        flex-basis: calc(33.3333333% - (($gutter * 2))/3)
+    }
 }

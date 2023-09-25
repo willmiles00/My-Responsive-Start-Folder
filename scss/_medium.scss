@@ -4,28 +4,12 @@ header{
         font-size: 2rem;}
 }
 
-#navWrapper{
-    background-color: rgba(164, 221, 221, 0.606);
-}
 
-
-nav{
-    ul{
-        display: flex;
-        justify-content: space-between;
-        li a{
-            
-            color: rgb(47, 45, 45);
-            border-top: none;
-        }
-        li.active a{
-            background: none;
-            color: rgb(183, 79, 79);
-        }
+.allcards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    section{
+        flex-basis: calc(50% - ($gutter/2))
     }
-}
-
-section{
-
-    grid-template-columns: 1fr 1fr;
 }
