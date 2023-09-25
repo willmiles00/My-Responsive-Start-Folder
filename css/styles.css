@@ -390,7 +390,7 @@ nav ul li.active a {
   padding: 0 16px;
 }
 .allcards section {
-  border: 1px solid red;
+  border: 2px solid #d92828;
   border-radius: 10px;
   overflow: hidden;
   margin: 1rem 0;
@@ -402,7 +402,8 @@ nav ul li.active a {
   padding: 1rem 16px;
 }
 .allcards section h2 {
-  background-color: bisque;
+  background-color: #d92828;
+  color: white;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -468,8 +469,10 @@ footer .social a:hover {
   color: rgb(224, 196, 255);
 }
 footer .location {
+  text-align: center;
   font-size: 1.5rem;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 footer p.legal {
   margin: 0;

@@ -84,7 +84,7 @@ nav {
 .allcards {
   padding: 0 $gutter;
   section {
-    border: 1px solid red;
+    border: 2px solid $primaryColor;
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
@@ -95,7 +95,8 @@ nav {
       padding: 1rem $gutter;
     }
     h2 {
-      background-color: bisque;
+      background-color: $primaryColor;
+      color: white;
       font-size: 1.5rem;
 
       text-align: center;
@@ -170,8 +171,10 @@ footer {
   }
 
   .location {
+    text-align: center;
     font-size: 1.5rem;
     color: #ffffff;
+    padding-bottom: 20px;
   }
 
   p.legal {
