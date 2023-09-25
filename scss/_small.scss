@@ -81,41 +81,43 @@ nav {
   }
 }
 
-.allcards{
+.allcards {
   padding: 0 $gutter;
-  section{
+  section {
     border: 1px solid red;
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
-    h2, p, img{
+    h2,
+    p,
+    img {
       margin: 0;
-        padding: 1rem $gutter;
+      padding: 1rem $gutter;
     }
-    h2{
-        background-color: bisque;
-        font-size: 1.5rem;
-        
-        text-align: center;
+    h2 {
+      background-color: bisque;
+      font-size: 1.5rem;
+
+      text-align: center;
     }
 
-    img{
-    width: 100%;
-    height: auto;
-    display: block;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
     }
 
-    img.e2e{
+    img.e2e {
       padding: 0;
     }
 
-    p{
-   font-style: italic;
+    p {
+      font-style: italic;
     }
-    a{
+    a {
       display: block;
       background-color: darkblue;
-      padding: .75rem;
+      padding: 0.75rem;
       text-align: center;
       margin: 0 3rem 1rem 3rem;
       border-radius: 8px;
@@ -127,7 +129,6 @@ nav {
 
 main {
   margin: 0px 16px;
-  
 }
 
 // begin footer
@@ -137,14 +138,49 @@ main {
 
 footer {
   padding: 0.5rem $gutter;
-  p {
+
+  .contact {
+    color: white;
+    a{
+      color: white;
+    }
+    p {
+      margin: 0.5rem;
+      font-size: 1.2rem;
+    }
+    ion-icon {
+      color: red;
+      padding-right: 5px;
+    }
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    a{
+      display: block;
+      font-size: 2rem;
+      margin: .5rem;
+      padding: .6rem;
+      color: white;
+    }
+    a:hover{
+      color: rgb(224, 196, 255);
+    }
+  }
+
+  .location {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+
+  p.legal {
     margin: 0;
     font-weight: $lightWeight;
     text-align: center;
     color: white;
   }
 }
-
 
 div#navWrapper {
   background-color: $secondaryColor;

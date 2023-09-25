@@ -13,3 +13,22 @@ header{
         flex-basis: calc(50% - ($gutter/2))
     }
 }
+
+footer div{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+
+footer{
+
+    .location{
+        font-size: 16px;
+    }
+
+    .social{
+        justify-content: left;
+    }
+}
+
