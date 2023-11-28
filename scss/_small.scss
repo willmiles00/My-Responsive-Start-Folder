@@ -34,11 +34,21 @@ header {
     font-weight: $normalWeight;
     color: rgb(0, 0, 0);
   }
+  #tele{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-align: right;
+ 
+    width: 100%;
+    text-align: right;
+   }
 }
 
 
 
 nav {
+
   button {
     background: transparent;
     border: none;
