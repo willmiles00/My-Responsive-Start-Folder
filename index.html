@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Yummy Yum Diner</title>
+    <title>Miles Auto</title>
     <meta name="description" content="Will's Sample Start File">
     <meta name="author" content="William Miles">
     <meta charset="UTF-8">
@@ -13,19 +13,19 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="images/apple-touch-icon.png"
+      href="images/carFavicons/apple-touch-icon.png"
     >
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/favicon-32x32.png"
+      href="images/carFavicons/favicon-32x32.png"
     >
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/favicon-16x16.png"
+      href="images/carFavicons/favicon-16x16.png"
     >
     <link rel="manifest" href="images/site.webmanifest">
   </head>
@@ -34,23 +34,24 @@
       <header>
         <a href="index.html">
           <img
-            src="images/logo1x.png"
+            src="images/milesAuto.png"
             alt="logo"
             width="50"
-            height="50"
+            height="60"
             srcset="
-              images/logo1x.png 1x,
-              images/logo2x.png 2x,
-              images/logo3x.png 3x
+              images/milesAuto.png 1x,
+              images/milesAuto.png 2x,
+              images/milesAuto.png 3x,
             "
         ></a>
-        <h1>Yummy Yum Diner</h1>
+        <h1>Miles Auto</h1>
+        <a href="tel:+123456789">801-863-8888</a>
       </header>
     </div>
 
     <div id="navWrapper">
       <nav>
-        <button id="hamburgerBtn">&#9776;</button>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
         <ul id="primaryNav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Locations</a></li>
@@ -63,82 +64,55 @@
 
     <div id="mainWrapper">
       <main>
-        <h1>Menu</h1>
-
-        <div class="allcards">
-          <section>
-            <h2>Pancake Breakfast</h2>
-            <img src="images/diner1.webp" alt="html" width="300" height="175">
-            <p>Three fluffy buttermilk pancakes, two eggs cooked to order, and your choice of bacon or sausage. This breakfast is sure to please anyone.</p>
-            <a href="#">Order Now</a>
-          </section>
-
-          <section>
-            <h2>All Star Burger</h2>
-            <img src="images/diner2.webp" alt="html" width="300" height="175" />
-            <p>Our signature burger with two juicy beef patties, melted cheddar, crisp bacon, lettuce, tomato, onion, and pickles on a toasted bun.</p>
-
-            <a href="#">Order Now</a>
-          </section>
-
-          <section>
-            <h2>Country-Style Steak</h2>
-            <img src="images/diner3.webp" alt="html" width="300" height="175">
-            <p>A tender and juicy steak, breaded and fried to perfection. Served with your choice of two sides. This breakfast ios </p>
-            <a href="#">Order Now</a>
-          </section>
-
-          <section>
-            <h2>Breakfast Hash</h2>
-            <img src="images/diner4.webp" alt="html" width="300" height="175">
-            <p>A hearty and flavorful mix of diced potatoes, onions, peppers, and your choice of meat or vegetables, seasoned to perfection and topped with a fried egg.</p>
-            <a href="#">Order Now</a>
-          </section>
-
-          <section>
-            <h2>Chicken Waffle Sandy</h2>
-            <img src="images/diner5.webp" alt="html" width="300" height="175">
-            <p>Crispy fried chicken sandwiched between two fluffy waffles, drizzled with maple syrup and served with a side of bacon. Seniors get a nice pat on the back.</p>
-            <a href="#">Order Now</a>
-          </section>
+        <div class="parentHero">
+          <img src="images/coolCar.jpg" alt="A very cool car. Vroom vroom!" width="1280" height="720">
+          <p>Miles Auto</p>
         </div>
-      </main>
+      
+        <div class="cards">
+
+          <section class="bounce">
+            <img src="SVG/car-side-solid.svg" alt="">
+            <p>We offer comprehensive car repair and maintenance services. This claim suggests that the mechanic can handle a wide range of automotive repairs, from simple oil changes to complex engine overhauls.</p>
+            <button>Learn More</button>
+          </section>
+
+          <section class="spin">
+            <img src="SVG/car-solid.svg" alt="">
+            <p>Our mechanics are ASE-certified and experienced. This claim implies that the mechanic's employees are well-trained and knowledgeable in automotive repair. ASE (Automotive Service Excellence) certification is a recognized industry standard for automotive technicians.</p>
+            <button>Learn More</button>
+          </section>
+
+          <section class="pulse">
+            <img src="SVG/gear.svg" alt="">
+            <p>We use only the highest quality parts and materials. This claim suggests that the mechanic uses high-quality parts that will last and perform well.</p>
+            <button>Learn More</button>
+          </section>
+
+          <section class="color">
+            <img src="SVG/road.svg" alt="">
+            <p>We offer competitive pricing and financing options. This claim implies that the mechanic's prices are fair and that they offer financing options to help customers afford their repairs.</p>
+            <button>Learn More</button>
+          </section>
+
+
+
+        </div>
+        <div class="reviewWrapper">
+        <h2>What our customers say</h2>
+        <div id="cards"></div>
+      </div>
+</main>
     </div>
 
     <div id="footerWrapper">
       <footer>
-        <div>
-          <section class="contact">
-            <p><ion-icon name="person-outline"></ion-icon> Joe Burgerman Smith III</p>
-            <p><ion-icon name="home-outline"></ion-icon> Yummy Yum Diner, LLC</p>
-            <p>
-              <a href="mailto:joebs@yummyumdiner.com"><ion-icon name="mail-outline"></ion-icon> joebs@yummyumdiner.com</a>
-            </p>
-            <p><a href="https://yummyyumdiner.com"><ion-icon name="globe-outline"></ion-icon> yummyumdiner.com</a></p>
-            <p><a href="tel:8018638888"><ion-icon name="call-outline"></ion-icon> 801-863-8888</a></p>
-          </section>
-
-          <section class="social">
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-          </section>
-
-          <section class="location">
-            <address>
-              Yummy Yum Diner <br>
-              800 W University Pkwy <br>
-              Orem, UT 84058
-            </address>
-          </section>
-        </div>
 
         <p class="legal">&copy; <span id="year">x</span> &bull; William Miles</p>
       </footer>
     </div>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js" type="module"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
